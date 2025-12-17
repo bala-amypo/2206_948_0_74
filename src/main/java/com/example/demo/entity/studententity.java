@@ -1,12 +1,12 @@
 package com.example.demo.entity;
 
-import jakarta.persistance.*;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 
 @Entity
 public class studententity{
 
-    @id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
