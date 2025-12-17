@@ -21,7 +21,7 @@ public class studententity{
     }
 
     public Long getID(){
-        return id;ogihdfxb
+        return id;
     }
 
     public studententity(){
