@@ -11,10 +11,10 @@ import com.example.demo.service.StudentService;
 public class StudentServiceImpl implements StudentService {
 
     @Autowired
-    private StudentRepository stdrepo;
+    studentRepo repo;
 
-    @Override
-    public Student postStudent(Student st) {
+   
+    public List<studentEntity>get {
         return stdrepo.save(st);
     }
 }
