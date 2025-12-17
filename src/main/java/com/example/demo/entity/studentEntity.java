@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 
 @Entity
-public studentEntity{
+public class studentEntity{
     
 
     @Id
